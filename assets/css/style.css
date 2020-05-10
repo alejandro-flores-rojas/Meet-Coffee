@@ -1,0 +1,183 @@
+body{
+  text-align: center;
+  color: #000f08;
+  margin: 0; /*para quitar margenes a los lados */
+  font-family: 'Open Sans', sans-serif;
+}
+body * { /*Resetar formato de marge, borde y padding en las secciones*/
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.oscuro{
+  background:  #000f08;
+  color: #ffffff;
+}
+
+.oscuro a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sweet-brown{
+  background: #a4452c;
+  text-align: left;
+  color: #ffffff;
+  padding: 50px;
+  white-space: nowrap;
+  }
+
+.hero-section{
+  text-align: right;
+  background-image: url('../img/bg-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 6.25rem 3.125rem;
+}
+
+section, footer{
+  margin-top: 75px;
+}
+
+footer{
+  padding: 50px;
+}
+
+.charla-texto, .evento{
+  display: inline-block;
+}
+
+.centrado{
+  width: 75%; /*respecto al contenedor*/
+  margin: 0 auto; /* 0 arriba abajo, auto: derecho e izquierdo.*/
+}
+
+.charla-speaker{
+  width: 25%; /*la imagen se irá ajustando automáticametne al ancho de div centrado*/
+  vertical-align: middle;/*alineación vertical de la imgen*/
+}
+
+.charla-texto{
+  width: 70%;
+  vertical-align: middle; /*alineación vertical del texto, respecto a la imagen*/
+  margin-left: 5%;
+  white-space: normal;
+}
+
+.evento{
+  width: 30%;
+}
+
+.evento1{
+  width: 75%
+}
+.evento2{
+  width: 75%
+}
+.evento3{
+  width: 75%
+}
+h1{
+  font-weight: 800; /*"peso" tipografía*/
+  font-size: 3.75em; /*% del tamaño de la fuente*/
+  margin-bottom: 1em;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+h3{
+  font-size: 2em;
+}
+h4{
+  font-size: 1.75em;
+}
+h5{
+  font-size: 1.25em;
+}
+
+#ubicacion h2{
+  margin-bottom: 1em auto;
+}
+
+.subtitulo, h4, h5{
+  font-weight: 400;
+}
+
+.sweet-brown h3 .sweet-brown h5{
+  margin-bottom: 0.5em;
+}
+
+#eventos h2{
+  margin-bottom: 1em;
+}
+
+#eventos h3{
+  margin: 1em auto;
+}
+
+.evento a{
+  margin: 1em auto;
+  font-size: 2em;
+  display: block; /*para cambiar margen*/
+  color: #000f08;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav{
+  text-align: left;
+  padding: 1.25rem 4rem; /*alineamos y agregamos padding*/
+  position: fixed; /*fojamos el menú arriba a la izquierda*/
+  width: 100vw; /*la seccion tiene el ancho de la pantalla*/
+}
+nav ul{
+  list-style-type: none; /*quita las viñetas*/
+}
+nav ul li{
+  display: inline-block; /*uno al lado del otro*/
+  margin: 0 1em; /*margen a los lados*/
+  vertical-align: middle;
+}
+
+.icono{
+  width: 2rem;
+}
+
+
+.icono svg{
+  fill: #ffffff; /*colorear el icono blanco*/
+}
+
+footer i{
+  margin: 0 0.25em 0.5em 0.25em;
+}
+#simposio h2{
+    padding-top: 9rem;
+    padding-bottom: 4rem;
+    font-size: 45px;
+}
+
+.content{
+  padding-left: 418px;
+  text-align: left;
+}
+.content p {
+ font-size: 25px;
+ font-weight: 400;
+ padding-top: 3rem;
+ width: 70%;
+ vertical-align: middle;
+}
+
+.content h2{
+  font-size: 40px;
+  font-weight: 800;
+  height: 59px;
+  padding-top: 3rem;
+}
